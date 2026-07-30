@@ -7,7 +7,7 @@ class BankConfig:
 
     def __new__(cls):
 
-        if cls._instance is None:
+        if cls._instance is Nocne:
 
             cls._instance = super().__new__(cls)
 
